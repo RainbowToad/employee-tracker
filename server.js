@@ -1,7 +1,7 @@
-// get the client
+
 const mysql = require('mysql2');
 const cTable = require('console.table');
-import inquirer from 'inquirer';
+const inquirer = require(`inquirer`);
 
 
 
@@ -9,5 +9,5 @@ import inquirer from 'inquirer';
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  database: 'test'
+  database: 'employee_db'
 });
