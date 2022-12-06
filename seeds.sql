@@ -1,4 +1,0 @@
-USE employee_db
-
-
-
